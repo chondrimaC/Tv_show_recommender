@@ -1,0 +1,152 @@
+body {
+  font-size: 16px;
+  /*background-color: #F1F1F1 ;*/
+  background-image: url('http://localhost/Final_Project/OMDB_api/images/free-background-websites-470x300.jpg');
+  font-family: 'Oxygen', sans-serif;
+}
+#header-nav {
+  background-color:#DC143C /*#f6b319 #2F4F4F #2d3e50*/;
+  border-radius: 0;
+  border: 0;
+}
+#search {
+	width: 500px;
+	}
+.nav.navbar-nav.navbar-right li a {
+	color:#FFFBF0;
+	} 
+.navbar-default .navbar-nav .open .dropdown-menu>li>a {
+	color:rgba(0, 0, 0, 0.54);
+	} 
+	
+a:hover{ text-decoration: none; }
+
+#main {  /*background-color: white;
+	border-radius: 10px;
+    box-shadow: 0 0 2px #999;*/ 
+	margin-top: 70px;
+}
+div.channel_list {
+	width: 200px;
+	float: left;
+	margin-bottom: 30px;
+	margin-left: 22px;
+	margin-top:15px;
+	height: 220px;
+	background-color: #fff;
+	color: #000;
+	position:relative;
+		}
+
+div.channel_list.image_content {
+			width: 185px;
+			position:relative;
+		}
+.poster {
+			width: 200px;
+			height: 110px;
+			position:relative;
+		}
+.info #title{text-align:center;
+    color: #167ac6;
+}
+.info #title a:focus, .info #title a:hover{text-decoration:underline;}
+.info #actor { font-size: 0.9em;
+text-align:center;
+}
+.actor {color: #f06624;}
+.whole {color: #000;}
+.show_list {
+    background-color: #fff;
+	height: 80px;
+    border: 1px solid #999;
+    border-radius: 10px;
+    /* box-shadow: 0 0 10px #999; */
+    clear: both;
+	margin-top: 20px;
+    margin-bottom: 10px;
+    padding: 10px;
+    position: relative;
+	
+}
+div {
+    display: block;
+}
+.show_list .poster img {
+    cursor: pointer;
+    height: 55px;
+    width: 40px;
+}
+.img_zoom {
+transition: -webkit-transform 0.25s ease;
+transition: -moz-transform 0.25s ease;
+}
+.img_zoom:hover {
+-webkit-transform: scale(2);
+-moz-transform: scale(2);
+}
+.show_list .poster {
+    cursor: pointer;
+    float: left;
+    height: 55px;
+    position: relative;
+    width: 40px;
+}
+.show_list .info_wrap {
+    position: relative;
+    float: left;
+	width: 95%;
+	height: 80px;
+    margin-left: 10px;
+}
+.info_wrap .title {
+    color: #555;
+    cursor: pointer;
+    display: inline-block;
+    float: left;
+    font-family: "Trebuchet MS",Arial,Helvetica,sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 22px;
+    /*padding: 1px;*/
+    position: relative;
+    text-shadow: 0 -1px 1px #ddd;
+	margin-left: 10px;
+}
+.year, .runtime, .genre, .released, .imdbVotes, .writer { color:#3bace1; }	
+.info_wrap #writer {float: left;
+	font-family: "Trebuchet MS",Arial,Helvetica,sans-serif;
+	color: #f06624;
+    font-size: 14px;
+    font-weight: bold;
+	margin-left: 20px;
+	padding: 1px;}
+.info_wrap #rating {
+    color:/*#2A1FFF*/ #3bace1;
+	/*margin-left:50px;*/
+	float:right;
+}	
+.info_wrap #year { 
+	font-family: "Trebuchet MS",Arial,Helvetica,sans-serif;
+	font-weight: bold;
+	color: #f06624;
+	position: relative;
+    display: block;
+    float: left;
+    clear: left;
+	font-size: 14px;
+    padding: 1px 4px 1px 4px;
+    margin-left: 10px;
+    }
+.info_wrap #runtime, .info_wrap #released, .info_wrap #imdbVotes ,.info_wrap #genre{
+	float: left;
+	font-family: "Trebuchet MS",Arial,Helvetica,sans-serif;
+	color: #f06624;
+    font-size: 14px;
+    font-weight: bold;
+	margin-left: 20px;
+	padding: 1px;
+	} 
+.info_wrap p {
+color: #555;
+}

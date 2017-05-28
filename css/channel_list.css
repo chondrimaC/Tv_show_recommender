@@ -1,0 +1,87 @@
+* { box-sizing:border-box; }
+body {
+  font-size: 16px;
+  /*background-color: #F1F1F1 ;*/
+  background-image: url('http://localhost/Final_Project/OMDB_api/images/free-background-websites-470x300.jpg');
+  font-family: 'Oxygen', sans-serif;
+}
+#header-nav {
+  background-color:#DC143C /*#f6b319 #2F4F4F #2d3e50*/;
+  border-radius: 0;
+  border: 0;
+}
+#search {
+	width: 500px;
+	}
+.nav.navbar-nav.navbar-right li a {
+	color:#FFFBF0;
+	} 
+.navbar-default .navbar-nav .open .dropdown-menu>li>a {
+	color:rgba(0, 0, 0, 0.54);
+	} 
+	
+a:hover{ text-decoration: none; }
+
+#main {  /*background-color: white;
+	border-radius: 10px;
+    box-shadow: 0 0 2px #999;*/ 
+	margin-top: 70px;
+}
+.container #top	{
+	font-family: 'Noto Serif', sans-serif;  
+	font-size: 30px;
+	font-weight: 600;
+	/* margin-top:20px; */
+	margin-left: 20px; 
+	color: white;
+	/*color: #000;    
+ 	 float:left; 
+ */}		
+
+.container #sort { margin-top:20px; float:right; margin-right: 22px; padding:10px;}
+.lang_link { margin-top:10px;  margin-left: 20px; padding:10px;}
+.channel_link { margin-top:10px;  text-align:center; padding:10px;}
+
+#channel_atn, #channel_btv, #channel_ntv, #channel_colors, #channel_zee, #channel_jalsha, #channel_plus, #channel_colors, #channel_sony, #channel_life, #channel_zee, #channel_world {  
+	font-family: 'Noto Serif', sans-serif;  
+	font-size: 1.5em;
+	margin-top: 50px;
+	margin-left: 20px;
+	font-weight: 600;
+	color: /* #000*/ white;
+	clear: left;
+	}
+
+div.channel_list {
+	width: 200px;
+	float: left;
+	margin-bottom: 30px;
+	margin-left: 22px;
+	margin-top:15px;
+	height: 220px;
+	background-color: #fff;
+	color: #000;
+	position:relative;
+		}
+
+div.channel_list.image_content {
+			width: 185px;
+			position:relative;
+		}
+.poster {
+			width: 200px;
+			height: 110px;
+			position:relative;
+		}
+.info #title{text-align:center;
+    color: #167ac6;
+}
+.info #title a:focus, .info #title a:hover{text-decoration:underline;}
+.info #actor { font-size: 0.9em;
+text-align:center;
+}
+.actor {color: #f06624;}
+.whole {color: #000;}
+
+		
+			
